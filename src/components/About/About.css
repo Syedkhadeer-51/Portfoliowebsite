@@ -1,0 +1,30 @@
+
+.about{
+    background-color: #ffff;
+}
+.About-title {
+    color: #0f0928;
+    font-size:45px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    line-height: 1.2;
+}
+.about-title-border{
+    height: 60px;
+    width: 6px;
+    background-color: #2b00d4;
+    box-shadow: -4px 7px 10px 0px rgba(0,0,0,0.74);
+}
+.about-decription{
+    font-size: 22px;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+.fact-icon{
+    max-height: 350px;
+}
+/* media querries */
+@media (max-width:475px){
+    .about-title-border{
+        height: 100px !important;
+    }
+  }

@@ -1,0 +1,62 @@
+.home{
+    background-color: #fff;
+}
+.abt-section{
+   background-color: #fff;
+}
+.intro-icon{
+    height: 400px;
+}
+
+@media (max-width:576px){
+    .icon-section{
+        min-height: 600px;
+    }
+}
+.title-txt{
+    color: #0f0928;
+    font-size:30px;
+    font-family: 'Sawarabi Gothic', sans-serif;
+    line-height: 1.2;
+    
+}
+.title-name{
+    color: #2b00d4;
+    font-size:45px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    line-height: 1.2;
+}
+.i-desc{
+    color: #757575;
+    font-size: 22px;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+.desc-txt{
+    color: black;
+    font-size: 30px;
+    font-family: 'Sawarabi Gothic', sans-serif;
+}
+img.intro-icon {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+img.intro-icon {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+
+
+
+
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+/* media querries */
+
+

@@ -1,0 +1,30 @@
+.navbar{
+    background-color: #fff !important; 
+    max-width: 100%;  
+}
+.navbar-brand{
+    color: #2b00d4 !important;
+    font-size:30px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  .navbar-brand:hover{
+    font-size: 30px !important;
+  
+
+  } 
+.nav-item a{
+    color: #0f0928 !important;
+    font-size:22px;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+}
+.nav-item a:hover{
+  color: #2b00d4 !important;
+  border-bottom: 1px solid #2b00d4;
+    text-decoration: none;
+}
+.navbar-brand:hover{
+  color: black !important;
+}
+
+

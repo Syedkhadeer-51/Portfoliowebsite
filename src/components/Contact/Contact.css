@@ -1,0 +1,72 @@
+.contact-title {
+    color: #0f0928;
+    font-size:45px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    line-height: 1.2;
+}
+.contact-title-border{
+    height: 60px;
+    width: 6px;
+    background-color: #2b00d4;
+    box-shadow: -4px 7px 10px 0px rgba(0,0,0,0.74);
+}
+.c-talk{
+    color: black;
+    font-size: 30px;
+    font-family: 'Sawarabi Gothic', sans-serif;
+}
+.c-desc{
+    font-size: 22px;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+.contact-btn:hover{
+    background-color: lightgray;
+    border-radius: 50%;
+}
+input{
+    width: 60%;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid black;
+    margin: 10px 0px;
+    font-size: 14px;
+    color: #0f0928;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.2;
+} 
+input:focus { 
+    outline: #2b00d4  !important;
+    border: 1px solid #2b00d4 ; 
+ } 
+textarea{
+    width: 60%;
+    margin: 10px 0px;
+    font-size: 14px;
+    color: #0f0928;
+    font-family: 'Open Sans', sans-serif;
+}
+button{
+    border: none;
+    background-color: #2b00d4;
+    color: #ffff;
+    font-weight: 500;
+    cursor: pointer;
+}
+button:hover{
+    transition: all 100ms ease-in;
+    transform: scale(1.1);
+}
+.confirmation-txt {
+    font-size: 22px;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+/* media querries */
+@media (max-width:475px){
+    input{
+        width: 80%;
+    } 
+    textarea{
+        width: 80%;
+    }
+  }
